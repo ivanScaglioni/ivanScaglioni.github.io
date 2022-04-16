@@ -13,19 +13,16 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 30px;
+  justify-content: space-around;
+  
   min-height: 70px;
   padding-top: 0;
   padding-bottom: 0;
 }
-.nav-menu{
+#nav-options{
   display: flex;
   gap: 10px 50px;
   align-items: center;
-}
-#name-nav{
-  font-family: "Densmore", sans-serif;
 }
 #a-menu{
   display: flex;
