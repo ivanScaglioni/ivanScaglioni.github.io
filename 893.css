@@ -1,9 +1,8 @@
 
 #aboutme {
-
   min-height: calc(100vh - 70px);
   display: flex;
-  justify-content:center;
+  justify-content: center;
   text-align: justify;
 }
 #perfil {
@@ -45,7 +44,7 @@
   border-radius: 50%;
   animation-name: appear;
   animation-duration: 4s;
-  margin-bottom:20px;
+  margin-bottom: 20px;
   margin-top: 40px;
   box-shadow: 0px 0px 5px black;
 }
@@ -58,12 +57,12 @@
   animation-duration: 2s;
 }
 #moreinfo {
-  height: 0;  
-  
+  height: 0;
+
   overflow: hidden;
   max-width: 800px;
   width: 90%;
- 
+
   background-color: transparent;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -81,7 +80,7 @@
 }
 @keyframes contraer {
 from {
-    height: 810px;
+    height: 840px;
 }
 to {
     height: 0;
@@ -92,7 +91,7 @@ from {
     height: 0;
 }
 to {
-    height: 810px;
+    height: 840px;
 }
 }
 @keyframes arrowUp {
