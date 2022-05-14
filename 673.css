@@ -1,10 +1,14 @@
 
+#skills{
+    text-shadow:0 0 1vw #ff0000;
+  color: #ffe2e2 ;
+}
 .skill{
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: -3px 2px 5px rgba(0, 0, 0, 0.363);
+ 
   border-radius: 5%;
   width: 150px;
   padding: 10px;
@@ -16,12 +20,7 @@
 .skillicon{
   width: 90px;
   margin: 0;
-}
-.separador{
-  width: 90%;
-  border-top: 1px solid var(--text-color);
-  animation-name: downUp ;
-  animation-duration: 2s;
+  filter: drop-shadow(0px 0px 10px rgb(255, 0, 0)) invert(15%);
 }
 #conte {
   display: flex;
@@ -36,26 +35,33 @@
   padding-top: 70px;
 }
 .btn-skill{
+  text-align: center;
   border: none;
-  background: transparent;
+  background: rgba(159, 6, 136, 0);
   outline: none;
+  cursor: pointer;
+  font-size:20px;
+  border-radius: 4px;
+  
+  text-shadow:0 0 1vw #ff0000;
+  color: #ffe2e2 ;
+}
+.btn{
+}
+.tabs{
+ display: flex;
+ gap: 0px 30px;
+}
+.diamond{
 
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  padding: 5px;
-  padding-right: 12px;
-  padding-left: 12px;
-
-  color: var(--text-color);
+  border-bottom: 5px  solid rgb(184, 249, 255);
+  border-right: 5px  solid rgb(184, 249, 255);
+  
+  filter: drop-shadow(0 0 4px rgb(0, 110, 255));
 }
 #skills-container {
   width: 100%;
   display: flex;
-  background: linear-gradient(
-    to bottom,
-    var(--secundary-color) 5%,
-    rgba(42, 71, 94, 0) 70%
-  );
   justify-content: center;
   align-content:center;
   align-items: center;
