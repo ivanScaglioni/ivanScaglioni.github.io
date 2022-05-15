@@ -3,17 +3,17 @@
   position: fixed;
   display: flex;
   flex-direction: row;
-  gap: 3vh;
+  gap: 10vw;
   width: 100%;
   justify-content: center;
-  bottom: 0px;
+  bottom: 1vh;
   z-index: 100;
   background-color: transparent;
 }
 .btn-a{
   text-align: center;
   font-family: 'Flow Rounded', cursive;
-  font-size: 7vh;
+  font-size: 70px;
   color: rgb(255, 255, 255);
   text-shadow: 0 0 2px red;
   filter: drop-shadow(0px 0px 20px rgb(255, 0, 0)) invert(20%);
