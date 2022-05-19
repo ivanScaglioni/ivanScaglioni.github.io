@@ -1,0 +1,75 @@
+
+#skills{
+  display: flex;
+  gap: 2vw 0;
+}
+#t-skills{
+
+  width: 100%;
+  text-align: center;
+ /* color: #e6d0ff ; */
+  /* font-style: oblique; */
+}
+.skill{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  width: 7vw;
+  transition-duration: 1s;
+}
+.skill:hover{
+  transform: scale(1.2);
+}
+.skillicon{
+  width:6vw;
+}
+#conte {
+  
+  display: flex;
+  width: 50%;
+  min-height: 15vw;
+  justify-content: space-around;
+  gap: 3vw 7vw;
+  align-items: baseline;
+  align-items: center;
+  padding-top: 3vw ;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+}
+.btn-skill{
+ 
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  font-style: oblique;
+  color: #e6d0ff ;
+  font-family:'Atomic Age', cursive;
+  text-shadow: 0.2vw 0.1vw #8c00ff ;
+}
+.tabs{
+  
+  display: flex;
+  gap: 1.5vw;
+  /* border-bottom: 0.3vw solid rgb(136, 0, 255); */
+}
+.diamond{
+
+ text-decoration: underline;
+  
+  text-shadow:  0 0 1vw #6c10ff, 0 0 3vw #7410ff, 0 0 10vw #8c10ff, 0 0 10vw #6410ff, 0 0 .4vw #da7ffe;
+  color: #e6d0ff ;
+  
+  filter: drop-shadow(0px 0px 2px rgb(187, 0, 255));
+}
+
+
+
+
+
+

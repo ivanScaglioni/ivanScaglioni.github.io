@@ -1,12 +1,14 @@
 
 :root {
-
-
-  --text-size-small:1rem;
-  --text-size-medium:1.2rem;
-  --text-size-large: 1.5rem;
-  --title-size-l: 4rem;
-  --title-size-m: 3rem;
+  --vw-small:1.3vw;
+  --vw-medium: 1.7vw;
+  --vw-big:4vw;
+  --text-size-ss:1rem;
+  --text-size-small:1.2rem;
+  --text-size-medium:1.3rem;
+  --text-size-large: 1.7rem;
+  --title-size-l: 4.7rem;
+  --title-size-m: 3.2rem;
   --title-size-s: 2.1rem;
 }
 body {
@@ -15,11 +17,11 @@ body {
   margin: 0;
   transition-duration: 1s;
   font-family: 'Poiret One', cursive  ;
+  color: #f8e3ff;
 }
 *{
   scroll-behavior:smooth;
 }
-
 
 
 
@@ -95,7 +97,7 @@ body {
   gap: 2vh 0px;
   flex-direction: column;
   animation-name: downLoop;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(1, 1, 1, 1);
 }
@@ -122,9 +124,20 @@ main {
 a {
   text-decoration: none;
 }
-h2 {
-  padding: 0;
-  margin: 0;
+#t-skills, #t-links{
+  text-decoration: underline;
+  font-style: oblique;
+  text-shadow: 0 0 1vw #8c00ff, 0 0 3vw #8c00ff, 0 0 10vw #8c00ff, 0 0 10vw #8c00ff, 0 0 .4vw #d6a3ff;
+}
+#links, #skills, #moreinfo{
+  text-shadow: 0.1vw 0.1vw  #8c00ff ;
+}
+.h{
+text-decoration: underline;
+/* text-shadow:0 0 10px #2fff00; */
+}
+#t-skills, #t-links, .a_link{
+  font-family:'Atomic Age', cursive;
 }
 @keyframes downLoop {
 0% {
