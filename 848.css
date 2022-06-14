@@ -1,0 +1,21 @@
+
+#aboutme {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 5vw ;
+}
+#moreinfo {
+ 
+  width: 50%;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+
+
+
+
