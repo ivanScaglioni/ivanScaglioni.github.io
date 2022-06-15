@@ -19,6 +19,8 @@
   font-family: 'Atomic Age', cursive;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 .a_link{
   
