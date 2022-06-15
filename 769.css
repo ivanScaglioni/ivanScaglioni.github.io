@@ -1,0 +1,33 @@
+
+.contacticon {
+  width:4vw;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  align-items: center;
+  padding-bottom: 2vw;
+}
+#contactme {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#links {
+  font-family: 'Atomic Age', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.a_link{
+  
+  color: #ffffff ;
+}
+.a_link:hover{
+ text-shadow:0 0 1vw #ffff10;
+}
+
+
