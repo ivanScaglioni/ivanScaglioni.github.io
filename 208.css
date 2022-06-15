@@ -3,6 +3,9 @@
   display: flex;
   gap: 2vw 0;
   font-weight: bold;
+  padding-top: 5vh;
+
+  min-height: 50vw;
 }
 .skill{
   display:flex;
@@ -22,10 +25,13 @@
 #conte {
   
   display: flex;
+
   width: 50%;
-  min-height: 15vw;
+
+ 
 
   gap: 3vw 7vw;
+
   padding-top: 3vw ;
 
   justify-content: center;
