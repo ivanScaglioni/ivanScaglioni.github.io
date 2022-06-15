@@ -16,14 +16,16 @@
   align-items: center;
 }
 #links {
-  font-family: 'Atomic Age', cursive;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
 .a_link{
-  
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Poiret One', cursive  ;
+   font-weight: bold;
   color: #ffffff ;
 }
 .a_link:hover{
